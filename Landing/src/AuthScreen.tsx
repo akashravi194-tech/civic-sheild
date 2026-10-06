@@ -127,7 +127,7 @@ export default function AuthScreen({ initialRole, onBack }: Props) {
             <div className="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center">
               <BrainCircuit size={15} className="text-white" />
             </div>
-            <span className="font-bold text-gray-900">CivicSahayak</span>
+            <span className="font-bold text-gray-900">Civic Shield</span>
           </div>
         </div>
       </nav>
@@ -323,7 +323,7 @@ export default function AuthScreen({ initialRole, onBack }: Props) {
           </div>
 
           <p className="text-center text-xs text-gray-400 mt-5">
-            CivicSahayak · Smart India Hackathon 2026
+            Civic Shield · Smart India Hackathon 2026
           </p>
         </div>
       </div>

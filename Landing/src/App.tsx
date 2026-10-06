@@ -40,7 +40,7 @@ export default function App() {
               <BrainCircuit size={18} className="text-white" />
             </div>
             <span className="font-bold text-gray-900 text-lg tracking-tight">
-              CivicSahayak
+              Civic Shield
             </span>
           </div>
           <div className="flex items-center gap-3">
@@ -77,7 +77,7 @@ export default function App() {
           </h1>
 
           <p className="text-lg text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
-            CivicSahayak automatically classifies, prioritizes, and routes your
+            Civic Shield automatically classifies, prioritizes, and routes your
             complaint to the right department — cutting resolution time by up to
             60%.
           </p>
@@ -150,7 +150,7 @@ export default function App() {
       <section className="max-w-6xl mx-auto px-6 py-20">
         <div className="text-center mb-14">
           <h2 className="text-3xl font-bold text-gray-900 mb-3">
-            How CivicSahayak works
+            How Civic Shield works
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto">
             From submission to resolution — every step is automated,
@@ -292,7 +292,7 @@ export default function App() {
             <div className="w-6 h-6 rounded bg-indigo-600 flex items-center justify-center">
               <BrainCircuit size={13} className="text-white" />
             </div>
-            <span className="font-semibold text-gray-700">CivicSahayak</span>
+            <span className="font-semibold text-gray-700">Civic Shield</span>
             <span>·</span>
             <span>Smart India Hackathon 2026</span>
           </div>

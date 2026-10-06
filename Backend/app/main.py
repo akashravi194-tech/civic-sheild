@@ -1,5 +1,5 @@
 """
-CivicSahayak FastAPI application entrypoint.
+Civic Shield FastAPI application entrypoint.
 """
 import logging
 
@@ -54,7 +54,7 @@ class SPAStaticFiles(StaticFiles):
             response.headers["Cache-Control"] = "no-cache"
         return response
 
-app = FastAPI(title="CivicSahayak", version="0.1.0")
+app = FastAPI(title="Civic Shield", version="0.1.0")
 
 # CORS: allow all origins for now (SIH prototype). Tighten before production.
 app.add_middleware(

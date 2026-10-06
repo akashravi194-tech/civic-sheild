@@ -39,7 +39,7 @@ export default function Sidebar({ account }: Props) {
           <Shield size={18} className="text-white" />
         </div>
         <div>
-          <p className="text-sm font-bold text-gray-900 leading-tight">CivicSahayak</p>
+          <p className="text-sm font-bold text-gray-900 leading-tight">Civic Shield</p>
           <p className="text-[11px] text-gray-400 leading-tight">Officer Dashboard</p>
         </div>
       </div>

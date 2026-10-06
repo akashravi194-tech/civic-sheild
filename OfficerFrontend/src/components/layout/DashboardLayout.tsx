@@ -20,7 +20,7 @@ export default function DashboardLayout({ onRefresh, refreshing }: Props) {
           <Outlet />
         </main>
         <footer className="text-center py-4 text-[11px] text-gray-400 border-t border-gray-100">
-          CivicSahayak · Smart India Hackathon · Built for citizens, powered by AI
+          Civic Shield · Smart India Hackathon · Built for citizens, powered by AI
         </footer>
       </div>
     </div>

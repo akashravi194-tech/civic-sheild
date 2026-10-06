@@ -18,7 +18,7 @@ export default function Topbar({ onRefresh, refreshing }: Props) {
   const [backendOnline, setBackendOnline] = useState<boolean | null>(null)
 
   const base = '/' + pathname.split('/')[1]
-  const title = TITLES[base] ?? 'CivicSahayak'
+  const title = TITLES[base] ?? 'Civic Shield'
 
   useEffect(() => {
     fetch((import.meta.env.VITE_API_URL ?? 'http://localhost:8000') + '/health')
